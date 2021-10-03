@@ -1,0 +1,43 @@
+body {
+    background-color: mediumaquamarine;
+    
+}
+
+.login_div1 , .login_div2 {
+background-color:pink;
+text-align: center;
+border-width: 20px;
+border-radius: 15px;
+padding: 10px;
+float: none;
+width: 600px;
+    
+}
+
+.typewriter h1 {
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+
+
+    
